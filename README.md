@@ -23,7 +23,7 @@ jobs:
       uses: actions/checkout@v4
     
     - name: 📂 Sync files
-      uses: Jaunty42/ftp_cpanel@v4.3.6
+      uses: Jaunty42/ftp_cpanel@v1.1
       with:
         server: ftp.samkirkland.com
         username: myFtpUserName
